@@ -101,9 +101,9 @@ ctx.stroke()
 
 //bir resim yükleyelim
 
-loadImage('https://cdn.discordapp.com/attachments/825378546347802634/827925630632460338/hand-painted-watercolor-background-with-sky-clouds-shape_24972-1095.jpg').then((calaninanasinisikim) => {//şu kısımda resim yazsakda olurdu çalan piçler var kusurbakmayın
+loadImage('https://cdn.discordapp.com/attachments/825378546347802634/827925630632460338/hand-painted-watercolor-background-with-sky-clouds-shape_24972-1095.jpg').then((seyitcik) => {//şu kısımda resim yazsakda olurdu çalan piçler var kusurbakmayın
 
-  ctx.drawImage(calaninanasinisikim, 50, 0, 70, 70)
+  ctx.drawImage(seyitcik, 50, 0, 70, 70)
 
            const attachment = new Discord.MessageAttachment(
 
