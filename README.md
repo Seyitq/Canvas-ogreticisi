@@ -1,17 +1,67 @@
-# Canvas-ogreticisi
-**Canvas öğreticisi**
 
-Basit bir örnekle başlayalım.
+### Canvas öğreticisi
 
-loadImage('link') resim yükler.
+•```fillText();``` yazı yazmanıza yarar.
 
-fillText(merhaba, 30, 60) x30 y60 kordinatına merhaba yazdırdık kısacası fillText yazı yazmaya yarar.
+•```fillStyle = 'renk';``` yazının rengini belirler. bazı kardeşlerim türkçe yazıyor yanlış olur :) ve tamamen büyğk harf `WHITE` gibi
 
-measureText('metin') metnin uzunluğunu ölçtük.
+•```registerFont('comicsans.ttf', { family: 'Comic Sans' });``` fontu belirler.
 
+•```beginPath();``` Parantez gibi düşünebilirsin işlem aralığı açar.
 
+•```closePath();``` Az önce açtığımız parantezi kapatır. yani işlemi bitirir.
 
-fillStlye = 'BLACK' anladığınız gibi rengi ayarladık :)
+•```rotate();``` metni veya belirlenen şeyi yamultur.
+
+•```measureText('metin');``` Yazılan metnin uzunluğunu ölçer.
+
+•```lineTo();``` Çizgi çekmeye yarar. Parantezin içinr kordinstlstı girmeyi unutmayın.
+
+•```drawImage(tanım, 0, 0, 0, 0);```  Belirlenen resmi çizer yani resime ekler. 0ları kendi kordinatlarınıza gmre değiştirin.
+
+•toBuffer(),
+
+    "ornek.png"
+
+    
+
+resmin uzantısını belirledik bunu d.js de şöyle kullanırız:
+
+```js
+
+     const attachment = new Discord.MessageAttachment(
+
+              canvas.toBuffer(),
+
+              "ornek.png"
+
+            );
+
+            
+
+            message.channel.send(attachment)
+
+```
+
+peki ben bu canvası nasıl tanımlıyacağım
+
+şöyle:
+
+```js
+
+const { createCanvas, loadImage } = require('canvas')
+
+const canvas = createCanvas(200, 200)
+
+const ctx = canvas.getContext('2d')
+
+```
+
+burdaki ctx i toBuffer hariç tüm hepsinde kullanırız yani ```ctx.fillText``` veya ```ctx.lineTo``` gibi 
+
+hepsini telefondan halledtim oazartesi gününr kadar sabredin .D eksiğim veya yanlışım varsa discorddd üzerinden bildirebilirsiniz
+
+Discord:```seyit#6652```
 
 Devamı yarın gelicek telde yaptım hepsini 
 ```js
