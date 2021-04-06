@@ -59,7 +59,7 @@ const ctx = canvas.getContext('2d')
 
 burdaki ctx i toBuffer hariç tüm hepsinde kullanırız yani ```ctx.fillText``` veya ```ctx.lineTo``` gibi 
 
-hepsini telefondan halledtim oazartesi gününr kadar sabredin .D eksiğim veya yanlışım varsa discorddd üzerinden bildirebilirsiniz
+hepsini telefondan halledtim oazartesi gününr kadar sabredin .D eksiğim veya yanlışım varsa discord üzerinden bildirebilirsiniz
 
 Discord:```seyit#6652```
 
