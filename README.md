@@ -61,7 +61,7 @@ burdaki ctx i toBuffer hariç tüm hepsinde kullanırız yani ```ctx.fillText```
 
 hepsini telefondan halledtim oazartesi gününr kadar sabredin .D eksiğim veya yanlışım varsa discord üzerinden bildirebilirsiniz
 
-Discord:```seyit#6652```
+Discord:```s3y1t#1228```
 
 Devamı yarın gelicek telde yaptım hepsini 
 ```js
